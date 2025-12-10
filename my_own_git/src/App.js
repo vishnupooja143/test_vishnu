@@ -1,15 +1,12 @@
 
 import './App.css';
+import EntryForm from "./components/EntryForm";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       
-        <p>
-          Hi Vishnu How are you Have a nice day
-        </p>
-        
+        <EntryForm />
       </header>
     </div>
   );
